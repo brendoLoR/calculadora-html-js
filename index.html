@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="./index.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="main-calculadora">
+            <div class="display">
+                <li class="big_focus" id="mainDisplayText"></li>
+                <li class="small_focus" id="secondDisplayText">|</li>
+            </div>
+            <div class="buttons"> 
+                <table class="buttons-table">
+                    <tr>
+                        <td>
+                            <button onclick="onNumberClick('1')" class="calc-button" id="calc_button1">1</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('2')" class="calc-button" id="calc_button2">2</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('3')" class="calc-button" id="calc_button3">3</button>
+                        </td>
+                        <td>
+                            <button class="calc-button" id="calc_buttonPlus">+</button>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <button onclick="onNumberClick('4')" class="calc-button" id="calc_button4">4</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('5')" class="calc-button" id="calc_butto5">5</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('6')" class="calc-button" id="calc_button6">6</button>
+                        </td>
+                        <td>
+                            <button class="calc-button" id="calc_buttonLess">-</button>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <button onclick="onNumberClick('7')" class="calc-button" id="calc_button7">7</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('8')" class="calc-button" id="calc_button8">8</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('9')" class="calc-button" id="calc_button9">9</button>
+                        </td>
+                        <td>
+                            <button class="calc-button" id="calc_buttonTimes">*</button>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>
+                            <button class="calc-button" id="calc_buttonVirg">,</button>
+                        </td>
+                        <td>
+                            <button onclick="onNumberClick('0')" class="calc-button" id="calc_button0">0</button>
+                        </td>
+                        <td>
+                            <button class="calc-button" id="calc_buttonEquals">=</button>
+                        </td>
+                        <td>
+                            <button class="calc-button" id="calc_buttonSlash">/</button>
+                        </td>
+                    </tr>   
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

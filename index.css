@@ -1,0 +1,52 @@
+body{
+    background-color: darkgray;
+    align-items: center;
+}
+.container{
+    display: block;
+    background-color: darkslategrey;
+    margin-left: 20%;
+    width: 19em;
+    height: 30em;
+    border-radius: 15px;
+    padding: 0,5em;
+    position: absolute;
+}
+.display{
+    display: block;
+    position: relative;
+    background-color:black;
+    margin: 10px;
+    border-radius: 10px;
+    height: 80px;
+}
+.display>li{
+    text-align: right;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+.big_focus{
+    color: azure;
+    font-weight: 600;
+    font-size:25pt;
+    list-style: none;
+}
+.small_focus{
+    color: azure;
+    font-weight: 400;
+    font-size:10pt;
+    list-style: none;
+}
+.buttons{
+    margin: 5px;
+    display: block;
+    background-color: slategrey;
+    border-radius: 5px;
+}
+.calc-button{
+    width: 5em;
+    height: 6em;
+    background-color:azure;
+    border-radius: 5px;
+    border-style: none;
+}
